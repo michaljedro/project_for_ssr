@@ -1,18 +1,17 @@
 import { TodoProvider } from "./Context/ToDoContext";
 import { ThemeStore } from "./Context/ThemeStore";
 import Theme from "./styles/Global";
-import ToDoForm from "./components/ToDoForm";
+import ToDoForm from "./components/DoForm";
 import Footer from "./components/Footer";
 import { useContext } from "react";
 import { ThemeContext } from "./Context/ThemeStore";
-function App() {
+function Main() {
   return (
     <ThemeStore>
       <Theme>
         <TodoProvider>
           <div>
             <ToDoForm />
-            {/* <Footer /> */}
           </div>
         </TodoProvider>
       </Theme>
@@ -20,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

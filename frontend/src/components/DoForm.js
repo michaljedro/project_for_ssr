@@ -16,7 +16,7 @@ import {
 } from "../styles/TodoForm.styled";
 import { ThemeContext } from "../Context/ThemeStore";
 
-function ToDoForm() {
+function DoForm() {
   const inputRef = useRef();
   const { addTodo } = useContext(TodoContext);
   const { theme, setTheme } = useContext(ThemeContext);
@@ -80,4 +80,4 @@ function ToDoForm() {
   );
 }
 
-export default ToDoForm;
+export default DoForm;
