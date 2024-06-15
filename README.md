@@ -5,10 +5,15 @@
 <div align="center">
 
 
-<h3 align="center">Zarządzanie Jakością Oprogramowania - Laboratorium</h3>
+<h3 align="center">Server Side Rendering - Laboratorium</h3>
 
   <p align="center">
-    Projekt na zaliczenie przedmiotu dotyczącego Zarządzania Jakością Oprogramowania. Przedstawia on aplikację webową tzwn. ToDo Listę. Wykonany został z wykorzystaniem JavaScript. Strona frontendowa aplikacji wykonane przy wykorzystaniu biblioteki React, backend z uzyćiem ExpressJS łączący się z bazą danych z MiojiojiojioongoDB.
+    Projekt na zaliczenie przedmiotu dotyczącego Server Side Rendering. Przedstawia on aplikację webową tzwn. ToDo Listę. Wykonany został z wykorzystaniem JavaScript. Strona frontendowa aplikacji wykonane przy wykorzystaniu biblioteki React, backend z uzyćiem ExpressJS łączący się z bazą danych z MongoDB.
+
+    Server-side rendering jest narzędziem poprawiającym wydajność i SEO aplikacji webowych, szczególnie tych, które wymagają szybkiego ładowania i indeksacji treści wyszukiwarki. 
+    Implementacja SSR w aplikacjach opartych na JavaScript, takich jak te z Reactem na front i Express na backned pozwala na efektywne wykorzystanie technologii i usprawnienie działania aplikacji webowej. 
+
+    Server side rendering jest techniką generowania widoków aplikacji webowych po stronie serwera, zamiast wykonywania tego procesu po stronie klienta. Process SSR polega na renderowaniu strony lub jej części w HTML, CSS i 
     <br />
     <br />
     <br />
