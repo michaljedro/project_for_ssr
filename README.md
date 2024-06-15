@@ -75,18 +75,12 @@ Tutaj znjaduję się informacja jako można zainstalować projekt
 
 ## USER MANUAL
 
-  ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/ac315aed-9cca-4b60-a65c-a1115c90ebbd)
 
+ Aby pokazać jedynie zakończone zadania wykonane przez użytkownika, należy kliknąć na przycisk `Completed`. Po najechaniu na przycisk, zmieni on barwę na niebieską
 
-
-  ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/be314622-88d0-48c5-8dcc-953ee2d1e44c)
-  
-  Aby pokazać jedynie zakończone zadania wykonane przez użytkownika, należy kliknąć na przycisk `Completed`. Po najechaniu na przycisk, zmieni on barwę na niebieską
-
-  ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/ce922b3d-763f-48c8-b017-1c37a0360e62)
 
   Użytkownik może wyświetlić zadania, które są aktywne tj. nie zostały wykonane. Należy kliknąć w tym celu przycisk Active. Pokazane zostaną nie wykonane zadania. Zmieni się także liczba w lewym dolnym rogu listy. 
-  ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/acf7502b-9e7a-47d4-80a4-c9d0b1c18cb8)
+
   <br />
 Aby pokazać wszystkie zadania, należy kliknąć przycisk All. 
 
