@@ -14,43 +14,15 @@
     Implementacja SSR w aplikacjach opartych na JavaScript, takich jak te z Reactem na front i Express na backned pozwala na efektywne wykorzystanie technologii i usprawnienie działania aplikacji webowej. 
 
     Server side rendering jest techniką generowania widoków aplikacji webowych po stronie serwera, zamiast wykonywania tego procesu po stronie klienta. Process SSR polega na renderowaniu strony lub jej części w HTML, CSS i 
-    <br />
-    <br />
-    <br />
-<!--     <img src="https://user-images.githubusercontent.com/50203318/232338036-10da4883-940f-4af4-98b0-c08f9daff637.jpg"> -->
+ 
 
 
 
 
   </p>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Authors</a></li>
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -64,15 +36,14 @@
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## Informacje o projekcie
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Tutaj znajdują się instrukcje jak możesz uruchomić projekt lokalnie. 
 
-### Prerequisites
+### Wymagania
 
-This is an example of how to list things you need to use the software and how to install them.
 
+Tutaj znjaduję się informacja jako można zainstalować projekt
 - npm
   ```sh
   npm install npm@latest -g
@@ -84,7 +55,8 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    
    ```
-   The project is divided into two parts. For the FrontEnd and BackEnd folder. After downloading the project to your computer, you need to go to each folder (frontend and backend) and install the dependencies.
+   Projekt podzielony jest na trzy części. Pierwsza z nich to warstwa front-endu. Napisana została w React. Druga część to warstwa backendu. Trzecia część to baza danych.
+
    
 2. Install NPM packages
    ```sh

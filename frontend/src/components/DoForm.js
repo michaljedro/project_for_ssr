@@ -5,9 +5,6 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import {
   ToDoHeader,
   ToDoFormBox,
-  ToDoFormHeader,
-  Header,
-  Input,
   TextHeader,
   InputTodo,
   Container,
