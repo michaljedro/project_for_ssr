@@ -9,13 +9,13 @@ Aplikacja składa się z jednej głównej roli, czyli użytkownika.
 Funkcjonalności użytkownika:
 - Dodawanie, usuwanie zadań do wykonania, 
 3. Schemat działania aplikacji
-Aplikacja korzysta z SSR w celu generowania zada� do wy�wietlenia co pozwala na szybsze �adowanie i lepsz� optymalizacj� pod k�tem SEO.
-Schemat dzia�ania obejmuje:
-- Komunikacja klient-serwer: Klient wysy�a zapytanie HTTP do serwera exress. 
-- Renderowanie SSR: Serwer u�ywa React do generowania HTML na podstawie zapytania
-- Format danych: Dane przesy�ane s� w formacie JSON.
-- Po��czenie z MongoDB: Wykorzystujemy bibliotek� Mongoose do komunikacji z baz� danych MongoDB,
-- Cacho'wanie: Wykorzystanie pami�ci podr�cznej do przechowania cz�sto u�ywanych danych
+Aplikacja korzysta z SSR w celu generowania zadań do wyświetlenia co pozwala na szybsze i lepsze optymalizacji pod kątem SEO.
+Schemat działania obejmuje:
+- Komunikacja klient-serwer: Klient wysyła zapytanie HTTP do serwera exress. 
+- Renderowanie SSR: Serwer używa React do generowania HTML na podstawie zapytania
+- Format danych: Dane przesyłane są w formacie JSON.
+- Połączenie z MongoDB: Wykorzystujemy bibliotek Mongoose do komunikacji z baz danych MongoDB,
+- Cacho'wanie: Wykorzystanie pamięci podręcznej do przechowania często u�ywanych danych
 4. Opis tego co dzieje si� po stronie serwera:
 Po stronie serwera znajduj� si� nast�puj�ce funkcjonalno�ci:
 - Wysy�ane s� �adania HTTP ( GET, POST) do serwera. 
