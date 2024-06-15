@@ -67,7 +67,7 @@ function DoForm() {
             </ToDoFormBox>
             <InputTodo
               theme={theme}
-              placeholder="Create a new todo..."
+              placeholder="Wpisz swoje zadanie."
               ref={inputRef}
               onKeyDown={handleAddTodo}
             />
