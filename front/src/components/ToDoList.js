@@ -17,10 +17,7 @@ function ToDoList() {
   const { theme } = useContext(ThemeContext);
   const {
     todoList,
-    addTodo,
-    deletedeleteTodoTodo,
     deleteMany,
-    editCompletedTodo,
     activeTodos,
     completedTodos,
   } = useContext(TodoContext);
@@ -65,22 +62,22 @@ function ToDoList() {
               <ToDo key={`todo_item-${todo._id}`} data={todo} />
             ))}
           <ItemsActivity theme={theme}>
-            <SpanLeft>{todos?.length} items left</SpanLeft>
+            <SpanLeft>{todos?.length} pozostało...</SpanLeft>
             <BoxActivityItems theme={theme}>
-              <button onClick={handleAll}>All</button>
-              <button onClick={handleActive}>Active</button>
-              <button onClick={handleCompleted}>Completed</button>
+              <button onClick={handleAll}>Wszystko</button>
+              <button onClick={handleActive}>Aktywne</button>
+              <button onClick={handleCompleted}>Zakończone</button>
             </BoxActivityItems>
             <ButtonCompleted onClick={handleDelete} theme={theme}>
-              Clear Completed
+              Wyczyść skończone
             </ButtonCompleted>
           </ItemsActivity>
         </div>
       </div>
       <MobileActivityItems theme={theme}>
-        <SpanAction theme={theme}>All</SpanAction>
-        <SpanAction theme={theme}>Active</SpanAction>
-        <SpanAction theme={theme}>Completed</SpanAction>
+        <SpanAction theme={theme}>Wszystko</SpanAction>
+        <SpanAction theme={theme}>Aktywne</SpanAction>
+        <SpanAction theme={theme}>Zakończone</SpanAction>
       </MobileActivityItems>
     </TodoList>
   );
