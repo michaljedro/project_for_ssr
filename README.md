@@ -51,50 +51,33 @@ Tutaj znjaduję się informacja jako można zainstalować projekt
 
 ### Installation
 
-1. Clone the repo
+1. Sklonuj repo
    ```sh
    
    ```
    Projekt podzielony jest na trzy części. Pierwsza z nich to warstwa front-endu. Napisana została w React. Druga część to warstwa backendu. Trzecia część to baza danych.
 
    
-2. Install NPM packages
+2. Zainstaluj front
    ```sh
    npm install
    ```
    
-3. Open the project frontend
+3. Wystartuj front
    ```sh
    npm start
    ```
-4. Open the project backend
+4. Otwórz backend
    ```sh
    node server.js
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-
-<!-- ## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- CONTACT -->
-  <!-- USER MANUAL -->
 
 ## USER MANUAL
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
   ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/ac315aed-9cca-4b60-a65c-a1115c90ebbd)
 
-Naciskając ikonę księżyca znajdującą się na tle gór, użytkonik może zmienić ekrany na ciemny. Wtedy zostanie także zmieniona ikona tego zdarzenia. Po zmianie tła na ciemne, ikona zostanie zmieniona na słońce. Aby powrócić do jasnego tła, należy nacisnąć ikonę słońca.
-  ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/926d93de-fc99-4417-8751-fd15f8f43f00)
+
 
   ![Tekst alternatywny](https://github.com/michaljedro/project_aeh/assets/50203318/be314622-88d0-48c5-8dcc-953ee2d1e44c)
   
@@ -108,16 +91,3 @@ Naciskając ikonę księżyca znajdującą się na tle gór, użytkonik może zm
 Aby pokazać wszystkie zadania, należy kliknąć przycisk All. 
 
 
-
-
-## Authors
-
-Software Quality Management - Laboratory is a place where we can to gain experience, expand their programming skills, and enter the world of IT as programmers. The best way to do this is by writing your own code, creating applications, and exchanging experiences while creating with others.
-
-- [@michaljedro](https://github.com/michaljedro)
-  
-
-  
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
