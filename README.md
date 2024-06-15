@@ -1,37 +1,37 @@
-Michaˆ J©dro nr. indeksu 25268
-Michaˆ Roszkowski nr. indeksu 36867
+MichaÅ‚ JÄ™dro nr. indeksu 25268
+MichaÅ‚ Roszkowski nr. indeksu 36867
 Kamil Sawicki nr. indeksu 44709
 1. Wprowadzenie, cele i problematyka
-Celem projektu jest stworzenie aplikacji webowej umo¾liwiaj¥cej interaktywne przegl¥danie i zarz¥dzanie zadaniami. Problem, kt¢ry aplikacja ma rozwi¥zywa†, to mozliwo˜† dodawania zadaä do zrealizowania. Do ich wy˜wietlenia wykorzystane ma by† efektywne renderowanie stron przy minimalnym obci¥¾eniu klienta
+Celem projektu jest stworzenie aplikacji webowej umoÅ¼liwiajÄ…cej interaktywne przeglÄ…danie i zarzÄ…dzanie zadaniami. Problem, ktÃ³ry aplikacja ma rozwiÄ…zywaÄ‡, to mozliwoÅ›Ä‡ dodawania zadaÅ„ do zrealizowania. Do ich wyÅ›wietlenia wykorzystane ma byÄ‡ efektywne renderowanie stron przy minimalnym obciÄ…Å¼eniu klienta
 
-2. Opis wszystkich funkcjonalno˜ci
-Aplikacja skˆada si© z jednej gˆ¢wnej roli, czyli u¾ytkownika.
-Funkcjonalno˜ci u¾ytkownika:
-- Dodawanie, usuwanie zadaä do wykonania, 
-3. Schemat dziaˆania aplikacji
-Aplikacja korzysta z SSR w celu generowania zadaä do wy˜wietlenia co pozwala na szybsze ˆadowanie i lepsz¥ optymalizacj© pod k¥tem SEO.
-Schemat dziaˆania obejmuje:
-- Komunikacja klient-serwer: Klient wysyˆa zapytanie HTTP do serwera exress. 
-- Renderowanie SSR: Serwer u¾ywa React do generowania HTML na podstawie zapytania
-- Format danych: Dane przesyˆane s¥ w formacie JSON.
-- Poˆ¥czenie z MongoDB: Wykorzystujemy bibliotek© Mongoose do komunikacji z baz¥ danych MongoDB,
-- Cacho'wanie: Wykorzystanie pami©ci podr©cznej do przechowania cz©sto u¾ywanych danych
-4. Opis tego co dzieje si© po stronie serwera:
-Po stronie serwera znajduj¥ si© nast©puj¥ce funkcjonalno˜ci:
-- Wysyˆane s¥ ¾adania HTTP ( GET, POST) do serwera. 
-- Wiadomo˜ci od serwera: Serwer przetwarza ¾¥dania HTTP, komunikuje si© z baz¥ danych i zwraca odpowiedzi klientowi.
+2. Opis wszystkich funkcjonalnoÅ›ci
+Aplikacja skÅ‚ada siÄ™ z jednej gÅ‚Ã³wnej roli, czyli uÅ¼ytkownika.
+FunkcjonalnoÅ›ci uÅ¼ytkownika:
+- Dodawanie, usuwanie zadaÅ„ do wykonania, 
+3. Schemat dziaÅ‚ania aplikacji
+Aplikacja korzysta z SSR w celu generowania zadaï¿½ do wyï¿½wietlenia co pozwala na szybsze ï¿½adowanie i lepszï¿½ optymalizacjï¿½ pod kï¿½tem SEO.
+Schemat dziaï¿½ania obejmuje:
+- Komunikacja klient-serwer: Klient wysyï¿½a zapytanie HTTP do serwera exress. 
+- Renderowanie SSR: Serwer uï¿½ywa React do generowania HTML na podstawie zapytania
+- Format danych: Dane przesyï¿½ane sï¿½ w formacie JSON.
+- Poï¿½ï¿½czenie z MongoDB: Wykorzystujemy bibliotekï¿½ Mongoose do komunikacji z bazï¿½ danych MongoDB,
+- Cacho'wanie: Wykorzystanie pamiï¿½ci podrï¿½cznej do przechowania czï¿½sto uï¿½ywanych danych
+4. Opis tego co dzieje siï¿½ po stronie serwera:
+Po stronie serwera znajdujï¿½ siï¿½ nastï¿½pujï¿½ce funkcjonalnoï¿½ci:
+- Wysyï¿½ane sï¿½ ï¿½adania HTTP ( GET, POST) do serwera. 
+- Wiadomoï¿½ci od serwera: Serwer przetwarza ï¿½ï¿½dania HTTP, komunikuje siï¿½ z bazï¿½ danych i zwraca odpowiedzi klientowi.
 5. Wykorzystane technologie do stworzenia projektu.
-J©zyk programowania: JavaScript
-—rodowisko zintegorwane: Visual Studio Code
+Jï¿½zyk programowania: JavaScript
+ï¿½rodowisko zintegorwane: Visual Studio Code
 Serwer: Express.js
 Baza danych: MongoDB
 Biblioteka: React, Mongoose, 
-6. Instrukcje zwi¥zane z uruchomieniem i deployment.
-- Zainstalowa† Nodejs,
-- Pobra† kod aplikacji
-- zainstalowa† zale¾no˜ci za pomoc¥ "npm install"
-- uruchomi† aplikacj© za pomoc¥ "npm start"
-7 Opis istotnych funkcjonalno˜ci aplikacji
-Server-Side Rendering (SSR): Mechanizm SSR jest u¾ywany do renderowania widok¢w React po stronie serwera, co poprawia wydajno˜† ˆadowania stron i SEO. 
+6. Instrukcje zwiï¿½zane z uruchomieniem i deployment.
+- Zainstalowaï¿½ Nodejs,
+- Pobraï¿½ kod aplikacji
+- zainstalowaï¿½ zaleï¿½noï¿½ci za pomocï¿½ "npm install"
+- uruchomiï¿½ aplikacjï¿½ za pomocï¿½ "npm start"
+7 Opis istotnych funkcjonalnoï¿½ci aplikacji
+Server-Side Rendering (SSR): Mechanizm SSR jest uï¿½ywany do renderowania widokï¿½w React po stronie serwera, co poprawia wydajnoï¿½ï¿½ ï¿½adowania stron i SEO. 
 8. Wnioski:
-Projekt stworzony przy wykorzystaniu React, Express oraz mondoDB jest pot©¾nym narz©dziem do tworzenia aplikacji webowych. Integracja SSR pozwala na szybkie ˆadowanie stron i lepsze pozycjonowanie w wyszukiwarkach. Podczas impllementacji nale¾y zwr¢ci† uwag© na optymalizacj© i zarz¥dzanie sesjami oraz pami©ci¥ podr©czn¥, aby zwi©kszych wydajno˜† i skalowalno˜† aplikacji. 
+Projekt stworzony przy wykorzystaniu React, Express oraz mondoDB jest potï¿½ï¿½nym narzï¿½dziem do tworzenia aplikacji webowych. Integracja SSR pozwala na szybkie ï¿½adowanie stron i lepsze pozycjonowanie w wyszukiwarkach. Podczas impllementacji naleï¿½y zwrï¿½ciï¿½ uwagï¿½ na optymalizacjï¿½ i zarzï¿½dzanie sesjami oraz pamiï¿½ciï¿½ podrï¿½cznï¿½, aby zwiï¿½kszych wydajnoï¿½ï¿½ i skalowalnoï¿½ï¿½ aplikacji. 
