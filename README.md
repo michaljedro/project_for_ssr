@@ -8,7 +8,7 @@
 <h3 align="center">Zarządzanie Jakością Oprogramowania - Laboratorium</h3>
 
   <p align="center">
-    Projekt na zaliczenie przedmiotu dotyczącego Zarządzania Jakością Oprogramowania. Przedstawia on aplikację webową tzwn. ToDo Listę. Wykonany został z wykorzystaniem JavaScript. Strona frontendowa aplikacji wykonane przy wykorzystaniu biblioteki React, backend z uzyćiem ExpressJS łączący się z bazą danych z MongoDB.
+    Projekt na zaliczenie przedmiotu dotyczącego Zarządzania Jakością Oprogramowania. Przedstawia on aplikację webową tzwn. ToDo Listę. Wykonany został z wykorzystaniem JavaScript. Strona frontendowa aplikacji wykonane przy wykorzystaniu biblioteki React, backend z uzyćiem ExpressJS łączący się z bazą danych z MiojiojiojioongoDB.
     <br />
     <br />
     <br />
