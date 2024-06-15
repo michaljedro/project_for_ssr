@@ -3,10 +3,10 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const data = require("./data.json");
-const connectDB = require("./db/db");
+const connectDB = require("./database/database");
 const dotenv = require("dotenv").config();
 const asyncHandler = require("express-async-handler");
-const Todo = require("./models/todo");
+const Todo = require("./schemas/todo");
 
 const port = 4444;
 app.use(express.json());
